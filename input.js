@@ -25,22 +25,26 @@ document.querySelector('#patvirtinti').addEventListener('click', function(){
         //append - nuolat prikabina
         //innerHTML
         // document.querySelector('.rezultatas').append('Skaicius1 yra lyginis');
-        document.querySelector('.rezultatas').innerHTML = "Skaicius1 yra lyginis";
+        document.querySelector('.rezultatas1').innerHTML = "Skaicius1 yra lyginis";
 
         // console.log('Skaicius1 yra lyginis');
     } else {
         // document.querySelector('.rezultatas').append('Skaicius1 yra nelyginis');
-        document.querySelector('.rezultatas').innerHTML = "Skaicius1 yra nelyginis";
+        document.querySelector('.rezultatas1').innerHTML = "Skaicius1 yra nelyginis";
 
         // console.log('Skaicius1 yra nelyginis');
     }
 
     if(skaicius2 % 2 == 0) {
-        document.querySelector('.rezultatas').append('Skaicius2 yra lyginis');
+        // document.querySelector('.rezultatas2').append('Skaicius2 yra lyginis');
+        document.querySelector('.rezultatas2').innerHTML = "Skaicius2 yra lyginis";
+
 // 
         // console.log('Skaicius2 yra lyginis');
     } else {
-        document.querySelector('.rezultatas').append('Skaicius2 yra nelyginis');
+        // document.querySelector('.rezultatas2').append('Skaicius2 yra nelyginis');
+        document.querySelector('.rezultatas2').innerHTML = "Skaicius2 yra nelyginis";
+
     }
 
 
